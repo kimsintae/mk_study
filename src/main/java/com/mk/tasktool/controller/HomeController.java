@@ -1,4 +1,4 @@
-package com.mk.tasktool;
+package com.mk.tasktool.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -25,7 +25,7 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		
-		return "user/demo";
+		return "user/member_main";
 	}
 	
 }
